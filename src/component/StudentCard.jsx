@@ -19,7 +19,7 @@ function StudentCard({ id, name, city, loadStudents }) {
   return (
     <div className="border-2 border-gray-300 p-4 m-4 rounded-md shadow-md relative bg-slate-200">
       <h2 className="text-2xl">
-        {id}-{name}
+        {id} - {name}
       </h2>
       <p>{city}</p>
 

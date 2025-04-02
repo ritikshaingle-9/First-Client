@@ -36,7 +36,7 @@ function Add() {
   };
 
   return (
-    <div className="bg-slate-200  min-h-screen">
+    <div className="bg-slate-200  min-h-screen m-0 p-0">
       <h1 className="text-center text-5xl my-4 mb-7">Add student</h1>
 
       <div className="w-1/2 mx-auto shadow-md m-5 p-5 rounded-md border-2 border-gray-200 bg-white">
