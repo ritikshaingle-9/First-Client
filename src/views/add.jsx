@@ -65,7 +65,7 @@ function Add() {
         />
 
         <button
-          className="bg-blue-500 text-xl px-10 py-2 rounded-full text-white block mx-auto mt-10 mb-2 cursor-pointer"
+          className="bg-slate-500 text-xl px-10 py-2 rounded-full text-white block mx-auto mt-10 mb-2 cursor-pointer"
           onClick={addStudent}
         >
           Add Student
