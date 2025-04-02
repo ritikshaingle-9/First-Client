@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <div>
-      <h1 className="text-center text-6xl my-4">All Students</h1>
+      <h1 className="text-center text-6xl my-4 mb-6">All Students</h1>
 
       <div>
         {students.map((studObj, i) => {
