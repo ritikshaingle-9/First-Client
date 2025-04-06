@@ -24,19 +24,16 @@ function Home() {
       <h1 className="text-center text-6xl my-4 mb-6">All Students</h1>
 
       <div>
-        {students.map((studObj, i) => {
-          const { id, name, city } = studObj;
+      {students?.map((studObj, i) => {
+      const { id, name, city } = studObj;
+      return (
+    <div key={id}>
+      <p>{name}</p>
+      <p>{city}</p>
+    </div>
+  );
+})}
 
-          return (
-            <StudentCard
-              key={i}
-              id={id}
-              name={name}
-              city={city}
-              loadStudents={loadStudents}
-            />
-          );
-        })}
       </div>
 
       <Link to="/add">
